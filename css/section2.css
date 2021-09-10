@@ -1,0 +1,26 @@
+.about {
+    align-items: center;
+    /*block-size: 330px;*/
+    text-align: center;
+    padding-block: 24px;
+}
+
+.about_content p {
+    font: var(--tamaño5);
+    font-weight: 100;
+}
+
+.about_content span {
+    font: var(--tamaño5);
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        display: flex;
+        height: 450px;
+    }
+    .content2 {
+        width: 70%;
+        margin: auto;
+    }
+}

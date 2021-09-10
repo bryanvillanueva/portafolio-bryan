@@ -1,0 +1,62 @@
+.hero {
+    padding-block-start: 16px ;
+}
+
+.info h1 {
+    font: var(--headline3);
+    margin: 0;
+}
+
+.tamaño3 {
+    font: var(--tamaño3);
+    display: block;
+}
+
+.tamaño1 {
+    font: var(--tamaño2);
+}
+
+.perfil {
+    text-align: center;
+}
+.perfil img {
+    max-inline-size: 100%;
+}
+
+.info{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.social {
+     padding-block-end: 24px ;
+     display: flex;
+     gap: 10px;
+}
+
+.body2 {
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex ;
+        gap: 45px;
+    }
+    .info {
+        order: 1;
+        max-inline-size: 450px;
+    }
+    .perfil {
+        order: 2;
+        text-align: end;
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .perfil img {
+        inline-size: 504px;
+    }
+}

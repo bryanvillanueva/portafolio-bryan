@@ -1,0 +1,43 @@
+@import url(./buttons.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./wrapper.css);
+@import url(./menu.css);
+@import url(./section2.css);
+@import url(./Testimonios.css);
+@import url(./portafolio.css);
+@import url(./footer.css);
+@import url(./form.css);
+
+
+:root {
+	--gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);;	
+	--font:'Poppins', sans-ferif ;
+    --tamaño1: bold 95px/153px var(--font);
+    --tamaño2: bold 59px/95px var(--font);
+    --tamaño3: bold 48px/77px var(--font);
+    --tamaño4: bold 34px/55px var(--font);
+    --tamaño5: bold 24px/38px var(--font);
+    --Body1: 16px/25px var(--font);
+    --Body2: 14px/28px var(--font);
+    --buttons: bold 14px/22px var(--font);
+    --caption: 12px/19px var(--font);
+    --purple: #310A90;
+    --green: #42E2B8;
+    --grey: #858C94;
+
+}
+
+body {
+	background: var(--gradient);
+	min-block-size: 100vh;
+	font: var(--Body1);
+    color: var(--purple);
+    margin: 0;
+}
+
+
+#Logo-img {
+	width: 70px;
+	cursor: pointer;
+}

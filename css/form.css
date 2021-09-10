@@ -1,0 +1,45 @@
+.contact  {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	font: var(--Body1);
+	max-inline-size: 540px;
+	margin: auto;
+	margin-bottom: 80px;
+}
+.contact p {
+	color: white;
+	margin: 0;
+
+}
+
+.contact #link-porta {
+	margin: 0;
+}
+
+.contact label {
+	display: flex;
+	flex-direction: column;
+	font: var(--buttons);
+}
+
+.contact input, .contact textarea {
+  border: 2px solid var(--grey);
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  font: var(--Body1);
+  margin-top:8px ;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	.contact #link-porta {
+	 align-self: stretch;
+	 text-align: center;
+    }
+
+    .contact p {
+    	text-align: center;
+    }
+}

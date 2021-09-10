@@ -1,0 +1,43 @@
+.footer {
+	text-align: center;
+	color: white;
+
+}
+.heart {
+	color: red;
+}
+
+.footer .social {
+	justify-content: center;
+	padding: 0;
+
+}
+
+.footer .logo-foot {
+
+}
+
+@media screen and (min-width: 768px) {
+	.footerlogo {
+		display: block;
+
+	}
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.footer .social {
+		order: 3;
+		
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.textfoot {
+		display: flex;
+	}
+	.footer {
+		padding: 40px 0px 40px 0px;
+	}
+}
