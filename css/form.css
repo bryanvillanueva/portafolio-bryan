@@ -12,6 +12,9 @@
 	margin: 0;
 
 }
+#trucazo {
+	opacity: 0;
+}
 
 .contact #link-porta {
 	margin: 0;
