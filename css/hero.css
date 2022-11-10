@@ -23,10 +23,6 @@
     max-inline-size: 100%;
 }
 
-.perfil img:hover {
-    visibility: no-visible;
-}
-
 .info{
     display: flex;
     gap: 16px;
